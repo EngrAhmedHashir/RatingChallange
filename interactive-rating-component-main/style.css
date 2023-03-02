@@ -1,0 +1,96 @@
+body
+{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+}
+h1
+{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.container,.hiddenContainer
+{
+    height: 360px;
+    width: 360px;
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 25px;
+}
+.circularButton
+{
+    border-radius: 100%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    margin: 9.5px; 
+    font-size: 18px;
+    color: hsl(217, 12%, 63%);
+    background-color:hsl(213, 12%, 37%);
+   
+}
+.circularButton:hover
+{
+    background-color:hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.btn 
+{
+    margin-top: 25px;
+    color: hsl(0, 0%, 100%);
+    height: 50px;
+    border: none;
+    border-radius:15px/50%;
+    font-size: 18px;
+    background-color:  hsl(25, 97%, 53%);
+    /* display: flex;
+    justify-content: center; */
+}
+.btn:hover
+{
+    background-color:  hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.counting
+{
+     margin-top: 10px;
+}
+.star .circularButton
+{
+    margin: 0;
+    padding: 0%;
+}
+.hiddenContainer
+{
+    text-align: center;
+}
+.thank
+{
+    width: 50%;
+    margin: auto;
+}
+.rating
+{
+    background-color:hsl(213, 12%, 37%);
+    color: hsl(25, 97%, 53%);
+    height: 20px;
+    padding: 10px 0px 5px;
+    width: 60%;
+    margin: auto;
+    border-radius:10px/50%;
+}
+.disabled
+{
+    display: none;
+}
+.selected {
+  background-color: grey;
+  color: #fff;
+}
